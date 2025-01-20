@@ -1,6 +1,6 @@
 # Movie Recommendation System: Project using R and Machine learning
 -----------------
-## Aim of Project
+# Aim of Project
 The main goal of this machine learning project is to build a recommendation engine that recommends movies to users. This R project is designed to understand the functioning of a recommendation system. I developed an *Item Based Collaborative Filter*. This helped me gain experience of implementing my R, Data Science, and Machine learning skills in a real-life project.
 -----------------
 ### Dataset used
@@ -63,8 +63,3 @@ In the next step of the ML project, I carried out the sum of rows and columns wi
 ----------------------------------------------
 ### Building Recommender System on dataset using R
 I created a ```top_recommendations``` variable which I initialized to 10, specifying the number of films to each user. I then used the ```predict()``` function that identified similar items and ranked them appropriately. Here, each rating is used as a weight. Each weight is multiplied with related similarities. Finally, I added everything in the end.
-
-
-
-
-
